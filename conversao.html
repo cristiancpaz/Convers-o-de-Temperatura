@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conversao de Unidades</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <section class="container">
+        <h1>CONVERSÃO DE TEMPERATURA</h1>
+        <form action="/" id="form" method="POST">
+        <label for="tempC">Temperatura em Celsius para Farenheight</label>
+        <input type="text" id="tempC"name="tempC">
+
+        <label for="tempF">Temperatura em Farenheit para Celsius</label>
+        <input type="text" id="tempF" name="tempF" >
+
+        <label for="tempK">Temperatura em Kelvin para Celsius</label>
+        <input type="text" id="tempK" name="tempK" >
+
+        <button type="submit">Calcular</button>
+
+    </form>
+    <div id="resultado"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
